@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.9.0)
+  - HandyJSON (5.0.0-beta)
+  - IQKeyboardManagerSwift (6.4.2)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - YYKit (1.0):
+    - YYKit/no-arc (= 1.0)
+  - YYKit/no-arc (1.0)
+
+DEPENDENCIES:
+  - HandyJSON (= 5.0.0-beta)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - YYKit (= 1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - Result
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  YYKit: 51b6002d44554f574c8bd614981e58b1e65c1b0f
+
+PODFILE CHECKSUM: 4fe2af756c70234dfe807912f654543785b28ba8
+
+COCOAPODS: 1.9.2

@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538DE78C15AF690C2C5E08D1 /* Pods_SkyWalker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4F16640B0AF42F567F63D3 /* Pods_SkyWalker.framework */; };
+		6654D2BF2478F1F000FE4C15 /* SkyWalkerLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654D2BE2478F1F000FE4C15 /* SkyWalkerLoginModel.swift */; };
+		6654D2C4247902CB00FE4C15 /* SkyWalkerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654D2C3247902CB00FE4C15 /* SkyWalkerAPI.swift */; };
+		6654D2C62479107700FE4C15 /* SkyWalkerMeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654D2C52479107700FE4C15 /* SkyWalkerMeModel.swift */; };
+		6654D2C8247910A300FE4C15 /* SkyWalkerMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654D2C7247910A300FE4C15 /* SkyWalkerMeTableViewCell.swift */; };
+		6654D2CC2479171100FE4C15 /* SkyWalkerNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654D2CB2479171100FE4C15 /* SkyWalkerNavigationView.swift */; };
+		6664DD89247A6B7C0043C4A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6664DD8B247A6B7C0043C4A7 /* Localizable.strings */; };
+		66CB0F682478C9AE000C9307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0F672478C9AE000C9307 /* AppDelegate.swift */; };
+		66CB0F6E2478C9AE000C9307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CB0F6D2478C9AE000C9307 /* Assets.xcassets */; };
+		66CB0F712478C9AE000C9307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CB0F702478C9AE000C9307 /* Preview Assets.xcassets */; };
+		66CB0F742478C9AE000C9307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CB0F722478C9AE000C9307 /* LaunchScreen.storyboard */; };
+		66CB0F7F2478C9AF000C9307 /* SkyWalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0F7E2478C9AF000C9307 /* SkyWalkerTests.swift */; };
+		66CB0F8A2478C9AF000C9307 /* SkyWalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0F892478C9AF000C9307 /* SkyWalkerUITests.swift */; };
+		66CB0FAA2478CA53000C9307 /* SkyWalkerDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FA92478CA53000C9307 /* SkyWalkerDefine.swift */; };
+		66CB0FAD2478CB01000C9307 /* SkyWalkerTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FAC2478CB01000C9307 /* SkyWalkerTabbarController.swift */; };
+		66CB0FAF2478CB2E000C9307 /* SkyWalkerBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FAE2478CB2E000C9307 /* SkyWalkerBaseViewController.swift */; };
+		66CB0FB12478CB46000C9307 /* SkyWalkerIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FB02478CB46000C9307 /* SkyWalkerIMViewController.swift */; };
+		66CB0FB32478CB63000C9307 /* SkyWalkerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FB22478CB63000C9307 /* SkyWalkerLoginViewController.swift */; };
+		66CB0FB52478CBE4000C9307 /* SkyWalkerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FB42478CBE4000C9307 /* SkyWalkerContentViewController.swift */; };
+		66CB0FB72478CBF3000C9307 /* SkyWalkerMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FB62478CBF3000C9307 /* SkyWalkerMeViewController.swift */; };
+		66CB0FB92478CC4D000C9307 /* SkyWalkerBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FB82478CC4D000C9307 /* SkyWalkerBaseNavigationController.swift */; };
+		66CB0FBC2478D513000C9307 /* SkyWalkerRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CB0FBA2478D513000C9307 /* SkyWalkerRegisterViewController.swift */; };
+		66FF6784247A7ADC0063FE31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66FF6783247A7ADC0063FE31 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CB0F7B2478C9AF000C9307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CB0F5C2478C9AE000C9307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CB0F632478C9AE000C9307;
+			remoteInfo = SkyWalker;
+		};
+		66CB0F862478C9AF000C9307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CB0F5C2478C9AE000C9307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CB0F632478C9AE000C9307;
+			remoteInfo = SkyWalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5164652C32DB8C17EDA812B5 /* Pods-SkyWalker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyWalker.debug.xcconfig"; path = "Target Support Files/Pods-SkyWalker/Pods-SkyWalker.debug.xcconfig"; sourceTree = "<group>"; };
+		6654D2BE2478F1F000FE4C15 /* SkyWalkerLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerLoginModel.swift; sourceTree = "<group>"; };
+		6654D2C3247902CB00FE4C15 /* SkyWalkerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerAPI.swift; sourceTree = "<group>"; };
+		6654D2C52479107700FE4C15 /* SkyWalkerMeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerMeModel.swift; sourceTree = "<group>"; };
+		6654D2C7247910A300FE4C15 /* SkyWalkerMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerMeTableViewCell.swift; sourceTree = "<group>"; };
+		6654D2CB2479171100FE4C15 /* SkyWalkerNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerNavigationView.swift; sourceTree = "<group>"; };
+		6664DD8A247A6B7C0043C4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6664DD8C247A6B7E0043C4A7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		66CB0F642478C9AE000C9307 /* SkyWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB0F672478C9AE000C9307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66CB0F6D2478C9AE000C9307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66CB0F702478C9AE000C9307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66CB0F732478C9AE000C9307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66CB0F7A2478C9AF000C9307 /* SkyWalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyWalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB0F7E2478C9AF000C9307 /* SkyWalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerTests.swift; sourceTree = "<group>"; };
+		66CB0F802478C9AF000C9307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CB0F852478C9AF000C9307 /* SkyWalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyWalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB0F892478C9AF000C9307 /* SkyWalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerUITests.swift; sourceTree = "<group>"; };
+		66CB0F8B2478C9AF000C9307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CB0FA92478CA53000C9307 /* SkyWalkerDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerDefine.swift; sourceTree = "<group>"; };
+		66CB0FAC2478CB01000C9307 /* SkyWalkerTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerTabbarController.swift; sourceTree = "<group>"; };
+		66CB0FAE2478CB2E000C9307 /* SkyWalkerBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerBaseViewController.swift; sourceTree = "<group>"; };
+		66CB0FB02478CB46000C9307 /* SkyWalkerIMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerIMViewController.swift; sourceTree = "<group>"; };
+		66CB0FB22478CB63000C9307 /* SkyWalkerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerLoginViewController.swift; sourceTree = "<group>"; };
+		66CB0FB42478CBE4000C9307 /* SkyWalkerContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerContentViewController.swift; sourceTree = "<group>"; };
+		66CB0FB62478CBF3000C9307 /* SkyWalkerMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerMeViewController.swift; sourceTree = "<group>"; };
+		66CB0FB82478CC4D000C9307 /* SkyWalkerBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerBaseNavigationController.swift; sourceTree = "<group>"; };
+		66CB0FBA2478D513000C9307 /* SkyWalkerRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWalkerRegisterViewController.swift; sourceTree = "<group>"; };
+		66FF6783247A7ADC0063FE31 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4F16640B0AF42F567F63D3 /* Pods_SkyWalker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyWalker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEB21D8B5293C766D4B4CA6 /* Pods-SkyWalker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyWalker.release.xcconfig"; path = "Target Support Files/Pods-SkyWalker/Pods-SkyWalker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CB0F612478C9AE000C9307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538DE78C15AF690C2C5E08D1 /* Pods_SkyWalker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F772478C9AF000C9307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F822478C9AF000C9307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156DBEB0C2BEB75975C4AD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F4F16640B0AF42F567F63D3 /* Pods_SkyWalker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6654D2C02478F2D200FE4C15 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6654D2C3247902CB00FE4C15 /* SkyWalkerAPI.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		66CB0F5B2478C9AE000C9307 = {
+			isa = PBXGroup;
+			children = (
+				66CB0F662478C9AE000C9307 /* SkyWalker */,
+				66CB0F7D2478C9AF000C9307 /* SkyWalkerTests */,
+				66CB0F882478C9AF000C9307 /* SkyWalkerUITests */,
+				66CB0F652478C9AE000C9307 /* Products */,
+				8EA4693DA790E84744FE4808 /* Pods */,
+				156DBEB0C2BEB75975C4AD6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66CB0F652478C9AE000C9307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F642478C9AE000C9307 /* SkyWalker.app */,
+				66CB0F7A2478C9AF000C9307 /* SkyWalkerTests.xctest */,
+				66CB0F852478C9AF000C9307 /* SkyWalkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CB0F662478C9AE000C9307 /* SkyWalker */ = {
+			isa = PBXGroup;
+			children = (
+				6654D2C02478F2D200FE4C15 /* Tools */,
+				66CB0FAB2478CACC000C9307 /* TabbarController */,
+				66CB0FA82478CA2D000C9307 /* Common */,
+				66CB0F9B2478C9ED000C9307 /* Content */,
+				66CB0F9F2478C9EE000C9307 /* IM */,
+				66CB0F972478C9ED000C9307 /* Longin&Register */,
+				66CB0FA32478C9EE000C9307 /* Me */,
+				66CB0FA72478C9EE000C9307 /* Utils */,
+				66CB0F672478C9AE000C9307 /* AppDelegate.swift */,
+				66FF6783247A7ADC0063FE31 /* Info.plist */,
+				66CB0F6D2478C9AE000C9307 /* Assets.xcassets */,
+				66CB0F722478C9AE000C9307 /* LaunchScreen.storyboard */,
+				66CB0F6F2478C9AE000C9307 /* Preview Content */,
+			);
+			path = SkyWalker;
+			sourceTree = "<group>";
+		};
+		66CB0F6F2478C9AE000C9307 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F702478C9AE000C9307 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66CB0F7D2478C9AF000C9307 /* SkyWalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F7E2478C9AF000C9307 /* SkyWalkerTests.swift */,
+				66CB0F802478C9AF000C9307 /* Info.plist */,
+			);
+			path = SkyWalkerTests;
+			sourceTree = "<group>";
+		};
+		66CB0F882478C9AF000C9307 /* SkyWalkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F892478C9AF000C9307 /* SkyWalkerUITests.swift */,
+				66CB0F8B2478C9AF000C9307 /* Info.plist */,
+			);
+			path = SkyWalkerUITests;
+			sourceTree = "<group>";
+		};
+		66CB0F972478C9ED000C9307 /* Longin&Register */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F982478C9ED000C9307 /* Controller */,
+				66CB0F992478C9ED000C9307 /* Model */,
+				66CB0F9A2478C9ED000C9307 /* View */,
+			);
+			path = "Longin&Register";
+			sourceTree = "<group>";
+		};
+		66CB0F982478C9ED000C9307 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FB22478CB63000C9307 /* SkyWalkerLoginViewController.swift */,
+				66CB0FBA2478D513000C9307 /* SkyWalkerRegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66CB0F992478C9ED000C9307 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6654D2BE2478F1F000FE4C15 /* SkyWalkerLoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CB0F9A2478C9ED000C9307 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CB0F9B2478C9ED000C9307 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0F9C2478C9ED000C9307 /* Controller */,
+				66CB0F9D2478C9ED000C9307 /* Model */,
+				66CB0F9E2478C9ED000C9307 /* View */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		66CB0F9C2478C9ED000C9307 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FB42478CBE4000C9307 /* SkyWalkerContentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66CB0F9D2478C9ED000C9307 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CB0F9E2478C9ED000C9307 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CB0F9F2478C9EE000C9307 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FA02478C9EE000C9307 /* Controller */,
+				66CB0FA12478C9EE000C9307 /* Model */,
+				66CB0FA22478C9EE000C9307 /* View */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		66CB0FA02478C9EE000C9307 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FB02478CB46000C9307 /* SkyWalkerIMViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66CB0FA12478C9EE000C9307 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CB0FA22478C9EE000C9307 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CB0FA32478C9EE000C9307 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FA42478C9EE000C9307 /* Controller */,
+				66CB0FA52478C9EE000C9307 /* Model */,
+				66CB0FA62478C9EE000C9307 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		66CB0FA42478C9EE000C9307 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FB62478CBF3000C9307 /* SkyWalkerMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66CB0FA52478C9EE000C9307 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6654D2C52479107700FE4C15 /* SkyWalkerMeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CB0FA62478C9EE000C9307 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6654D2C7247910A300FE4C15 /* SkyWalkerMeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CB0FA72478C9EE000C9307 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6664DD8B247A6B7C0043C4A7 /* Localizable.strings */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		66CB0FA82478CA2D000C9307 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FA92478CA53000C9307 /* SkyWalkerDefine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		66CB0FAB2478CACC000C9307 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				66CB0FAC2478CB01000C9307 /* SkyWalkerTabbarController.swift */,
+				66CB0FAE2478CB2E000C9307 /* SkyWalkerBaseViewController.swift */,
+				66CB0FB82478CC4D000C9307 /* SkyWalkerBaseNavigationController.swift */,
+				6654D2CB2479171100FE4C15 /* SkyWalkerNavigationView.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		8EA4693DA790E84744FE4808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5164652C32DB8C17EDA812B5 /* Pods-SkyWalker.debug.xcconfig */,
+				CBEB21D8B5293C766D4B4CA6 /* Pods-SkyWalker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CB0F632478C9AE000C9307 /* SkyWalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CB0F8E2478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalker" */;
+			buildPhases = (
+				C60D64DC0425A5E654CEE40A /* [CP] Check Pods Manifest.lock */,
+				66CB0F602478C9AE000C9307 /* Sources */,
+				66CB0F612478C9AE000C9307 /* Frameworks */,
+				66CB0F622478C9AE000C9307 /* Resources */,
+				0906F198B8F8711670EBB83B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWalker;
+			productName = SkyWalker;
+			productReference = 66CB0F642478C9AE000C9307 /* SkyWalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CB0F792478C9AF000C9307 /* SkyWalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CB0F912478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalkerTests" */;
+			buildPhases = (
+				66CB0F762478C9AF000C9307 /* Sources */,
+				66CB0F772478C9AF000C9307 /* Frameworks */,
+				66CB0F782478C9AF000C9307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CB0F7C2478C9AF000C9307 /* PBXTargetDependency */,
+			);
+			name = SkyWalkerTests;
+			productName = SkyWalkerTests;
+			productReference = 66CB0F7A2478C9AF000C9307 /* SkyWalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66CB0F842478C9AF000C9307 /* SkyWalkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CB0F942478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalkerUITests" */;
+			buildPhases = (
+				66CB0F812478C9AF000C9307 /* Sources */,
+				66CB0F822478C9AF000C9307 /* Frameworks */,
+				66CB0F832478C9AF000C9307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CB0F872478C9AF000C9307 /* PBXTargetDependency */,
+			);
+			name = SkyWalkerUITests;
+			productName = SkyWalkerUITests;
+			productReference = 66CB0F852478C9AF000C9307 /* SkyWalkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CB0F5C2478C9AE000C9307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SkyWalker;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kongchenliang;
+				TargetAttributes = {
+					66CB0F632478C9AE000C9307 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					66CB0F792478C9AF000C9307 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 66CB0F632478C9AE000C9307;
+					};
+					66CB0F842478C9AF000C9307 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 66CB0F632478C9AE000C9307;
+					};
+				};
+			};
+			buildConfigurationList = 66CB0F5F2478C9AE000C9307 /* Build configuration list for PBXProject "SkyWalker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 66CB0F5B2478C9AE000C9307;
+			productRefGroup = 66CB0F652478C9AE000C9307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CB0F632478C9AE000C9307 /* SkyWalker */,
+				66CB0F792478C9AF000C9307 /* SkyWalkerTests */,
+				66CB0F842478C9AF000C9307 /* SkyWalkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CB0F622478C9AE000C9307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CB0F742478C9AE000C9307 /* LaunchScreen.storyboard in Resources */,
+				6664DD89247A6B7C0043C4A7 /* Localizable.strings in Resources */,
+				66CB0F712478C9AE000C9307 /* Preview Assets.xcassets in Resources */,
+				66FF6784247A7ADC0063FE31 /* Info.plist in Resources */,
+				66CB0F6E2478C9AE000C9307 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F782478C9AF000C9307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F832478C9AF000C9307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0906F198B8F8711670EBB83B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyWalker/Pods-SkyWalker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyWalker/Pods-SkyWalker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyWalker/Pods-SkyWalker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60D64DC0425A5E654CEE40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyWalker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CB0F602478C9AE000C9307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6654D2C4247902CB00FE4C15 /* SkyWalkerAPI.swift in Sources */,
+				66CB0FAD2478CB01000C9307 /* SkyWalkerTabbarController.swift in Sources */,
+				66CB0FB52478CBE4000C9307 /* SkyWalkerContentViewController.swift in Sources */,
+				6654D2C62479107700FE4C15 /* SkyWalkerMeModel.swift in Sources */,
+				66CB0FB12478CB46000C9307 /* SkyWalkerIMViewController.swift in Sources */,
+				6654D2BF2478F1F000FE4C15 /* SkyWalkerLoginModel.swift in Sources */,
+				66CB0FB92478CC4D000C9307 /* SkyWalkerBaseNavigationController.swift in Sources */,
+				66CB0FB32478CB63000C9307 /* SkyWalkerLoginViewController.swift in Sources */,
+				66CB0FB72478CBF3000C9307 /* SkyWalkerMeViewController.swift in Sources */,
+				66CB0FAA2478CA53000C9307 /* SkyWalkerDefine.swift in Sources */,
+				66CB0F682478C9AE000C9307 /* AppDelegate.swift in Sources */,
+				6654D2CC2479171100FE4C15 /* SkyWalkerNavigationView.swift in Sources */,
+				6654D2C8247910A300FE4C15 /* SkyWalkerMeTableViewCell.swift in Sources */,
+				66CB0FAF2478CB2E000C9307 /* SkyWalkerBaseViewController.swift in Sources */,
+				66CB0FBC2478D513000C9307 /* SkyWalkerRegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F762478C9AF000C9307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CB0F7F2478C9AF000C9307 /* SkyWalkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CB0F812478C9AF000C9307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CB0F8A2478C9AF000C9307 /* SkyWalkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CB0F7C2478C9AF000C9307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CB0F632478C9AE000C9307 /* SkyWalker */;
+			targetProxy = 66CB0F7B2478C9AF000C9307 /* PBXContainerItemProxy */;
+		};
+		66CB0F872478C9AF000C9307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CB0F632478C9AE000C9307 /* SkyWalker */;
+			targetProxy = 66CB0F862478C9AF000C9307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6664DD8B247A6B7C0043C4A7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6664DD8A247A6B7C0043C4A7 /* en */,
+				6664DD8C247A6B7E0043C4A7 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		66CB0F722478C9AE000C9307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66CB0F732478C9AE000C9307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66CB0F8C2478C9AF000C9307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66CB0F8D2478C9AF000C9307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66CB0F8F2478C9AF000C9307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5164652C32DB8C17EDA812B5 /* Pods-SkyWalker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyWalker/Preview Content\"";
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SkyWalker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66CB0F902478C9AF000C9307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEB21D8B5293C766D4B4CA6 /* Pods-SkyWalker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyWalker/Preview Content\"";
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SkyWalker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66CB0F922478C9AF000C9307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = SkyWalkerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyWalker.app/SkyWalker";
+			};
+			name = Debug;
+		};
+		66CB0F932478C9AF000C9307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = SkyWalkerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyWalker.app/SkyWalker";
+			};
+			name = Release;
+		};
+		66CB0F952478C9AF000C9307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = SkyWalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyWalker;
+			};
+			name = Debug;
+		};
+		66CB0F962478C9AF000C9307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX6A523YNU;
+				INFOPLIST_FILE = SkyWalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kcl.SkyWalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyWalker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CB0F5F2478C9AE000C9307 /* Build configuration list for PBXProject "SkyWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CB0F8C2478C9AF000C9307 /* Debug */,
+				66CB0F8D2478C9AF000C9307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CB0F8E2478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CB0F8F2478C9AF000C9307 /* Debug */,
+				66CB0F902478C9AF000C9307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CB0F912478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CB0F922478C9AF000C9307 /* Debug */,
+				66CB0F932478C9AF000C9307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CB0F942478C9AF000C9307 /* Build configuration list for PBXNativeTarget "SkyWalkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CB0F952478C9AF000C9307 /* Debug */,
+				66CB0F962478C9AF000C9307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66CB0F5C2478C9AE000C9307 /* Project object */;
+}
